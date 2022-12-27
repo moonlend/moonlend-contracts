@@ -101,5 +101,6 @@ Copy `.env.example`, updating `PRIVATEKEY` and setting a value for `ETHERSCAN` (
 npm install --save-dev
 npm test
 npx hardhat deploy --network moonbase
+npx hardhat etherscan-verify --network moonbase
 npx hardhat verify --network moonbase DEPLOYED_CONTRACT_ADDRESS
 ```
