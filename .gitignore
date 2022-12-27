@@ -1,0 +1,12 @@
+node_modules
+.env
+
+#Hardhat files
+cache
+artifacts
+deployments
+bin
+
+#Foundry files
+cache/
+out/
